@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         primarySwatch: Colors.red,
-        accentColor: Color(0xFFFEF9EB),
+        accentColor:  Color.fromRGBO(249, 235, 195,0.9),
       ),
       home: HomeScreen(),
     );
